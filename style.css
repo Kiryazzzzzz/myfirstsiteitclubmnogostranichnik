@@ -1,0 +1,310 @@
+body {
+    margin: 0;
+    font-family: Ubuntu;
+}
+
+h1,
+h2 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.linkslist {
+    text-align: right;
+    margin: 0;
+    padding: 30px 0px 30px 20px;
+    background-color: white;
+    letter-spacing: 5px;
+    opacity: 75%;
+}
+
+.navancor {
+    list-style: none;
+    display: inline;
+    padding-right: 80px;
+}
+
+.navlogo {
+    float: left;
+    position: relative;
+    top: -15px;
+    width: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.nav {
+    position: fixed;
+    width: 100%;
+}
+
+.promo {
+    background-image: url(images/promo-image.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#promo-title {
+    text-align: left;
+    font-weight: bolder;
+    font-size: 115px;
+    color: azure;
+    padding-top: 650px;
+    padding-left: 15px;
+    margin: 0;
+}
+
+.w1text {
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 40px;
+    text-align: left;
+    vertical-align: top;
+}
+
+#v1,
+#v2 {
+    border-radius: 25px;
+}
+
+.w1 {
+    margin: 350px auto 25px auto;
+    text-align: center;
+}
+
+.w2 {
+    margin: 25px;
+    text-align: center;
+}
+
+.w2text {
+    font-family: Ubuntu;
+    font-size: 20px;
+    margin-right: 40px;
+    text-align: right;
+    vertical-align: top;
+    display: inline-block;
+}
+
+#w2p,
+#w1p {
+    display: inline-block;
+}
+
+.subtitle {
+    font-size: 65px;
+    color: azure;
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 300px;
+}
+
+.sectiontitle {
+    font-weight: bolder;
+    font-size: 65px;
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    width: 350px;
+    text-align: center;
+    height: 550px;
+    margin: 15px 10px 15px 10px;
+    box-shadow: 2px 2px 6px teal;
+    border-radius: 20px;
+    vertical-align: middle;
+}
+
+.lolololollolololo {
+    color: white;
+}
+
+#courses {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 25px;
+}
+
+#cardsubtitle {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 17px;
+}
+
+.card:hover {
+    box-shadow: 2px 2px 6px darkorange;
+}
+
+.cardbutton {
+    background-color: wheat;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 20px 15px 20px;
+    margin-top: 25px;
+}
+
+.contacts {
+    border-radius: 45px;
+    box-shadow: 2px 2px 8px teal;
+    width: 1120px;
+    display: flex;
+    margin-left: 400px;
+    background-color: azure;
+    margin-top: 50px;
+}
+
+.contacts:hover {
+    box-shadow: 2px 2px 20px darkorange;
+}
+
+#map {
+    border-radius: 45px 0px 0px 45px;
+}
+
+#img-call,
+#text-call {
+    font-size: 55px;
+    font-weight: bolder;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 25px;
+}
+
+.contact-text {
+    font-size: 40px;
+    font-weight: bold;
+    vertical-align: middle;
+    margin-top: 35px;
+    margin-left: 75px;
+}
+
+footer {
+    margin-top: 25px;
+    background-color: darkgrey;
+    padding: 25px;
+    font-size: 15px;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.promoweb {
+    background-image: url(images/web\ promo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: left;
+    font-weight: bolder;
+    font-size: 115px;
+    color: azure;
+    padding-top: 450px;
+    padding-bottom: 100px;
+    padding-left: 15px;
+    margin: 0;
+}
+
+#coursetitle {
+    font-size: 45px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#coursesubtitle {
+    font-size: 20px;
+    text-align: left;
+}
+
+.aboutext {
+    width: 45%;
+    padding: 15px;
+    display: inline-block;
+    margin: 15px;
+    padding-bottom: 0;
+}
+
+.aboutweb {
+    margin: 30px auto 25px auto;
+    border-radius: 35px;
+    width: 1100px;
+    box-shadow: 2px 2px 6px teal;
+}
+
+.aboutweb:hover {
+    box-shadow: 2px 2px 6px darkorange;
+}
+
+.abwebimg {
+    display: inline-block;
+}
+
+.zapbutton {
+    margin-top: 55px;
+    margin-left: 25px;
+    border: 3px solid teal;
+    border-radius: 25px;
+    padding: 15px 25px 15px 25px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.zapbutton:hover {
+    border: 3px solid darkorange;
+}
+
+.graduates-promo {
+    background-image: url(images/promo-grad.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: left;
+    font-weight: bolder;
+    font-size: 115px;
+    color: azure;
+    padding-top: 500px;
+    padding-bottom: 150px;
+    padding-left: 15px;
+    margin: 0;
+}
+
+.cardimgs {
+    border-radius: 25px 25px 0px 0px;
+    width: 350px;
+    margin: 0px 0px 10px 0px;
+}
+
+.cardtitles {
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+}
+
+.cardsubtitles {
+    margin-top: 5px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.graduate-card {
+    vertical-align: middle;
+    margin: 20px;
+    padding-bottom: 25px;
+    display: inline-block;
+    width: 350px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 6px teal;
+    height: 525px;
+}
+
+.graduate-card:hover {
+    box-shadow: 2px 2px 6px darkorange;
+}
+
+.graduate {
+    text-align: center;
+}
